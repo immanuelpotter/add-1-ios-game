@@ -9,12 +9,30 @@
 /* Begin PBXBuildFile section */
 		EDD8099424A8D002005BEBF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8099324A8D002005BEBF1 /* AppDelegate.swift */; };
 		EDD8099624A8D002005BEBF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8099524A8D002005BEBF1 /* SceneDelegate.swift */; };
-		EDD8099824A8D002005BEBF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8099724A8D002005BEBF1 /* ViewController.swift */; };
+		EDD8099824A8D002005BEBF1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8099724A8D002005BEBF1 /* GameViewController.swift */; };
 		EDD8099B24A8D002005BEBF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD8099924A8D002005BEBF1 /* Main.storyboard */; };
 		EDD8099D24A8D004005BEBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD8099C24A8D004005BEBF1 /* Assets.xcassets */; };
 		EDD809A024A8D004005BEBF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD8099E24A8D004005BEBF1 /* LaunchScreen.storyboard */; };
 		EDD809AB24A8D004005BEBF1 /* Add_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD809AA24A8D004005BEBF1 /* Add_1Tests.swift */; };
 		EDD809B624A8D004005BEBF1 /* Add_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD809B524A8D004005BEBF1 /* Add_1UITests.swift */; };
+		EDD809D224A8FCF9005BEBF1 /* input.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809C324A8FCF8005BEBF1 /* input.png */; };
+		EDD809D324A8FCF9005BEBF1 /* score.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809C424A8FCF8005BEBF1 /* score.png */; };
+		EDD809D424A8FCF9005BEBF1 /* background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809C524A8FCF8005BEBF1 /* background@3x.png */; };
+		EDD809D524A8FCF9005BEBF1 /* score@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809C624A8FCF8005BEBF1 /* score@2x.png */; };
+		EDD809D624A8FCF9005BEBF1 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809C724A8FCF8005BEBF1 /* background.png */; };
+		EDD809D724A8FCF9005BEBF1 /* input@2x@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809C824A8FCF8005BEBF1 /* input@2x@3x.png */; };
+		EDD809D824A8FCF9005BEBF1 /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809C924A8FCF9005BEBF1 /* time.png */; };
+		EDD809D924A8FCF9005BEBF1 /* number.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809CA24A8FCF9005BEBF1 /* number.png */; };
+		EDD809DA24A8FCF9005BEBF1 /* time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809CB24A8FCF9005BEBF1 /* time@2x.png */; };
+		EDD809DB24A8FCF9005BEBF1 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809CC24A8FCF9005BEBF1 /* background@2x.png */; };
+		EDD809DC24A8FCF9005BEBF1 /* number@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809CD24A8FCF9005BEBF1 /* number@3x.png */; };
+		EDD809DD24A8FCF9005BEBF1 /* input@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809CE24A8FCF9005BEBF1 /* input@2x.png */; };
+		EDD809DE24A8FCF9005BEBF1 /* time@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809CF24A8FCF9005BEBF1 /* time@3x.png */; };
+		EDD809DF24A8FCF9005BEBF1 /* score@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809D024A8FCF9005BEBF1 /* score@3x.png */; };
+		EDD809E024A8FCF9005BEBF1 /* number@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD809D124A8FCF9005BEBF1 /* number@2x.png */; };
+		EDD809E224A8FD8E005BEBF1 /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = EDD809E124A8FD8E005BEBF1 /* HVD_Comic_Serif_Pro.otf */; };
+		EDD809E724A91823005BEBF1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD809E624A91823005BEBF1 /* String.swift */; };
+		EDD809E824A91823005BEBF1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD809E624A91823005BEBF1 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +56,7 @@
 		EDD8099024A8D002005BEBF1 /* Add 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Add 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD8099324A8D002005BEBF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDD8099524A8D002005BEBF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDD8099724A8D002005BEBF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDD8099724A8D002005BEBF1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		EDD8099A24A8D002005BEBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDD8099C24A8D004005BEBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDD8099F24A8D004005BEBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +67,24 @@
 		EDD809B124A8D004005BEBF1 /* Add 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Add 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD809B524A8D004005BEBF1 /* Add_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_1UITests.swift; sourceTree = "<group>"; };
 		EDD809B724A8D004005BEBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD809C324A8FCF8005BEBF1 /* input.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = input.png; path = ../../Assets/input.png; sourceTree = "<group>"; };
+		EDD809C424A8FCF8005BEBF1 /* score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = score.png; path = ../../Assets/score.png; sourceTree = "<group>"; };
+		EDD809C524A8FCF8005BEBF1 /* background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@3x.png"; path = "../../Assets/background@3x.png"; sourceTree = "<group>"; };
+		EDD809C624A8FCF8005BEBF1 /* score@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "score@2x.png"; path = "../../Assets/score@2x.png"; sourceTree = "<group>"; };
+		EDD809C724A8FCF8005BEBF1 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../Assets/background.png; sourceTree = "<group>"; };
+		EDD809C824A8FCF8005BEBF1 /* input@2x@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "input@2x@3x.png"; path = "../../Assets/input@2x@3x.png"; sourceTree = "<group>"; };
+		EDD809C924A8FCF9005BEBF1 /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = time.png; path = ../../Assets/time.png; sourceTree = "<group>"; };
+		EDD809CA24A8FCF9005BEBF1 /* number.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number.png; path = ../../Assets/number.png; sourceTree = "<group>"; };
+		EDD809CB24A8FCF9005BEBF1 /* time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "time@2x.png"; path = "../../Assets/time@2x.png"; sourceTree = "<group>"; };
+		EDD809CC24A8FCF9005BEBF1 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "../../Assets/background@2x.png"; sourceTree = "<group>"; };
+		EDD809CD24A8FCF9005BEBF1 /* number@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number@3x.png"; path = "../../Assets/number@3x.png"; sourceTree = "<group>"; };
+		EDD809CE24A8FCF9005BEBF1 /* input@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "input@2x.png"; path = "../../Assets/input@2x.png"; sourceTree = "<group>"; };
+		EDD809CF24A8FCF9005BEBF1 /* time@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "time@3x.png"; path = "../../Assets/time@3x.png"; sourceTree = "<group>"; };
+		EDD809D024A8FCF9005BEBF1 /* score@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "score@3x.png"; path = "../../Assets/score@3x.png"; sourceTree = "<group>"; };
+		EDD809D124A8FCF9005BEBF1 /* number@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number@2x.png"; path = "../../Assets/number@2x.png"; sourceTree = "<group>"; };
+		EDD809E124A8FD8E005BEBF1 /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = HVD_Comic_Serif_Pro.otf; path = "../fonts/HVD-Comic-Serif-Pro/HVD_Comic_Serif_Pro.otf"; sourceTree = "<group>"; };
+		EDD809E324A8FE40005BEBF1 /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HVD_Comic_Serif_Pro.otf; sourceTree = "<group>"; };
+		EDD809E624A91823005BEBF1 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +115,12 @@
 		EDD8098724A8D002005BEBF1 = {
 			isa = PBXGroup;
 			children = (
+				EDD809E124A8FD8E005BEBF1 /* HVD_Comic_Serif_Pro.otf */,
 				EDD8099224A8D002005BEBF1 /* Add 1 */,
 				EDD809A924A8D004005BEBF1 /* Add 1Tests */,
 				EDD809B424A8D004005BEBF1 /* Add 1UITests */,
 				EDD8099124A8D002005BEBF1 /* Products */,
+				EDD809B724A8D004005BEBF1 /* Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +137,30 @@
 		EDD8099224A8D002005BEBF1 /* Add 1 */ = {
 			isa = PBXGroup;
 			children = (
+				EDD809E324A8FE40005BEBF1 /* HVD_Comic_Serif_Pro.otf */,
 				EDD8099324A8D002005BEBF1 /* AppDelegate.swift */,
 				EDD8099524A8D002005BEBF1 /* SceneDelegate.swift */,
-				EDD8099724A8D002005BEBF1 /* ViewController.swift */,
+				EDD8099724A8D002005BEBF1 /* GameViewController.swift */,
 				EDD8099924A8D002005BEBF1 /* Main.storyboard */,
 				EDD8099C24A8D004005BEBF1 /* Assets.xcassets */,
+				EDD809C724A8FCF8005BEBF1 /* background.png */,
+				EDD809CC24A8FCF9005BEBF1 /* background@2x.png */,
+				EDD809C524A8FCF8005BEBF1 /* background@3x.png */,
+				EDD809C324A8FCF8005BEBF1 /* input.png */,
+				EDD809CE24A8FCF9005BEBF1 /* input@2x.png */,
+				EDD809C824A8FCF8005BEBF1 /* input@2x@3x.png */,
+				EDD809CA24A8FCF9005BEBF1 /* number.png */,
+				EDD809D124A8FCF9005BEBF1 /* number@2x.png */,
+				EDD809CD24A8FCF9005BEBF1 /* number@3x.png */,
+				EDD809C424A8FCF8005BEBF1 /* score.png */,
+				EDD809C624A8FCF8005BEBF1 /* score@2x.png */,
+				EDD809D024A8FCF9005BEBF1 /* score@3x.png */,
+				EDD809C924A8FCF9005BEBF1 /* time.png */,
+				EDD809CB24A8FCF9005BEBF1 /* time@2x.png */,
+				EDD809CF24A8FCF9005BEBF1 /* time@3x.png */,
 				EDD8099E24A8D004005BEBF1 /* LaunchScreen.storyboard */,
 				EDD809A124A8D004005BEBF1 /* Info.plist */,
+				EDD809E624A91823005BEBF1 /* String.swift */,
 			);
 			path = "Add 1";
 			sourceTree = "<group>";
@@ -123,7 +178,6 @@
 			isa = PBXGroup;
 			children = (
 				EDD809B524A8D004005BEBF1 /* Add_1UITests.swift */,
-				EDD809B724A8D004005BEBF1 /* Info.plist */,
 			);
 			path = "Add 1UITests";
 			sourceTree = "<group>";
@@ -232,9 +286,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD809D224A8FCF9005BEBF1 /* input.png in Resources */,
+				EDD809D624A8FCF9005BEBF1 /* background.png in Resources */,
+				EDD809E224A8FD8E005BEBF1 /* HVD_Comic_Serif_Pro.otf in Resources */,
+				EDD809D424A8FCF9005BEBF1 /* background@3x.png in Resources */,
+				EDD809D924A8FCF9005BEBF1 /* number.png in Resources */,
+				EDD809DD24A8FCF9005BEBF1 /* input@2x.png in Resources */,
 				EDD809A024A8D004005BEBF1 /* LaunchScreen.storyboard in Resources */,
+				EDD809D524A8FCF9005BEBF1 /* score@2x.png in Resources */,
+				EDD809DB24A8FCF9005BEBF1 /* background@2x.png in Resources */,
+				EDD809DE24A8FCF9005BEBF1 /* time@3x.png in Resources */,
+				EDD809D324A8FCF9005BEBF1 /* score.png in Resources */,
+				EDD809D824A8FCF9005BEBF1 /* time.png in Resources */,
 				EDD8099D24A8D004005BEBF1 /* Assets.xcassets in Resources */,
+				EDD809D724A8FCF9005BEBF1 /* input@2x@3x.png in Resources */,
 				EDD8099B24A8D002005BEBF1 /* Main.storyboard in Resources */,
+				EDD809DF24A8FCF9005BEBF1 /* score@3x.png in Resources */,
+				EDD809E024A8FCF9005BEBF1 /* number@2x.png in Resources */,
+				EDD809DC24A8FCF9005BEBF1 /* number@3x.png in Resources */,
+				EDD809DA24A8FCF9005BEBF1 /* time@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +329,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDD8099824A8D002005BEBF1 /* ViewController.swift in Sources */,
+				EDD8099824A8D002005BEBF1 /* GameViewController.swift in Sources */,
 				EDD8099424A8D002005BEBF1 /* AppDelegate.swift in Sources */,
+				EDD809E724A91823005BEBF1 /* String.swift in Sources */,
 				EDD8099624A8D002005BEBF1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD809E824A91823005BEBF1 /* String.swift in Sources */,
 				EDD809AB24A8D004005BEBF1 /* Add_1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
