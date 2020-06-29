@@ -67,7 +67,12 @@ class GameViewController: UIViewController {
         if isCorrect {
             score += 1
         } else {
-            score -= 1
+            if score == 0 {
+                print("Score is 0!")
+            }
+            else {
+                score -= 1
+            }
         }
         
         updateNumberLabel()
